@@ -1,0 +1,133 @@
+.background-primary
+{
+    background-color: rgba(245, 245, 245, 0.24);
+}
+.padding-primary
+{
+    padding: 25px 0;
+}
+.container-nav
+{
+    padding:10px 10px 0 10px;
+    overflow: hidden;
+}
+.active-tab
+{
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+.pointer
+{
+    cursor: pointer;
+}
+/*
+* Estilos para la pantalla del estado
+*/
+.range-bar
+{
+    -webkit-appearance: slider-vertical; /* WebKit */
+    width: 8px;
+    height: 400px;
+    padding: 0 5px;
+    margin-top: 50px;
+}
+.numberRange
+{
+    position: absolute;
+    top: 45%;
+    left: 30px;
+    font-size: 40px;
+}
+.next
+{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    padding: 5px;
+}
+.next > i
+{
+    font-size: 40px;
+}
+/*
+* Estilos para el muro de muro
+*/
+.photo-profile
+{
+    min-width: 40px;
+    width: 50px;
+}
+#container-walls
+{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+}
+#ui-scroller
+{
+    position: absolute;
+    z-index: 1;
+    /*width: 250px; Este valor se aumentara segun muros ayas*/
+    height: 100%;
+}
+.wall
+{
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.wall > small
+{
+    font-size: 10px;
+}
+.icon-wall
+{
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    text-align: center;
+}
+#footer
+{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.content-button-footer
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.btn-footer
+{
+    width: 100%;
+}
+#main-content
+{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 480px; /*Este tamaño tiene que se detectado por el viewport*/
+}
+#scroller
+{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
